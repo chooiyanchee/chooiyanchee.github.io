@@ -1,0 +1,20 @@
+body {
+    background-color: #010736;
+    color: #FCF1D0;
+}
+
+h2 {
+    background-color: #22396F;
+    border: 3px dotted #FCF1D0;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+button {
+    background-color: #22396F;
+    color: #FCF1D0;
+    border: 1px solid #FCF1D0;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin: 4px;
+}
