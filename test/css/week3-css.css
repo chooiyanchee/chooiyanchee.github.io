@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    font-family: "Libre Caslon Condensed", serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ff7d7d;
+    background-image: url("../images/DSC00202.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: "Bitcount Ink", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 5px 10px 20px 30px;
+    box-shadow: -15px 12px 18px #888888;
+    padding: 20px;
+}
+
+h3 {
+    font-family: "Libre Caslon Condensed", serif;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}

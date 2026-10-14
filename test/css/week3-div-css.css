@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 800px;
+    gap: 10px;
+    margin: auto;
+}
+
+.box {
+    padding: 10px;
+    flex: 1;
+}
+
+div.bg-yellow {
+    background-color: #FFF4A3;
+}
+
+div.bg-pink {
+    background-color: #FFC0C7;
+    flex: 2;
+}
+
+div.bg-blue {
+    background-color: #D9EEE1;
+}
+
+.bg-image {
+    background-image: url("../images/DSC00202.JPG");
+    aspect-ratio: 1 / 1;
+    background-size: contain;
+    background-position: center;
+    flex: 2;
+}
