@@ -9,7 +9,7 @@ body {
 
 .container {
     display: flex;
-    width: 70%;
+    width: 95%;
     gap: 40px;
     margin: auto;
     padding: 30px 20px;
@@ -21,34 +21,4 @@ body {
     min-width: 0;
     background-color: #ffffff;
     border-radius: 20px;
-}
-
-div.bg-residential {
-    width: 100%;
-    height: 240px;
-    background-image: url("../images/Buildings.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-div.bg-commercial {
-    width: 100%;
-    height: 240px;
-    background-image: url("../images/Spaces.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-div.bg-infrastructure {
-    width: 100%;
-    height: 240px;
-    background-image: url("../images/Works.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
 }
