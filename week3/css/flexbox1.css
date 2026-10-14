@@ -27,12 +27,13 @@ body {
 .bg-residential,
 .bg-commercial,
 .bg-infrastructure {
-    height: 350px;
+    height: 300px;
     width: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    transition: background-size 0.5s ease-in-out;
 }
 
 .bg-residential {
@@ -45,6 +46,12 @@ body {
 
 .bg-infrastructure {
     background-image: url(../images/Works.jpg);
+}
+
+.bg-residential:hover,
+.bg-commercial:hover,
+.bg-infrastructure:hover {
+    background-size: 110% 110%;
 }
 
 p {
