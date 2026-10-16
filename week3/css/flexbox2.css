@@ -50,12 +50,60 @@ body {
     display: flex;
     flex-direction: row;
     gap: 115px;
-    margin: 700px;
+    margin: 70px;
     margin-left: 130px;
     max-width: 1280px;
 }
 
 .brand-logo {
     width: auto;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin: auto;
+    max-width: 1280px;
+    padding: 50px 0;
+}
+
+.middle-content {
+    width: 50%;
+}
+
+.middle-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.middle-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.middle-button {
+    background-color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 15px;
+    padding: 20px 35px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.mid-image {
+    width: 50%;
+    height: auto;
+}
+
+.mid-image img {
+    width: 100%;
     height: auto;
 }
