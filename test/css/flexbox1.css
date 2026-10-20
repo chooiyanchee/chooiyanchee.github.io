@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Oxygen", sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #f6f5ef;
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    gap: 40px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.box {
+    padding: 20px;
+    flex: 1;
+    min-width: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;
+}
+
+.bg-residential,
+.bg-commercial,
+.bg-infrastructure {
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: background-size 0.5s ease-in-out;
+}
+
+.bg-residential {
+    background-image: url(../images/Buildings.jpg);
+}
+
+.bg-commercial {
+    background-image: url(../images/Spaces.jpg);
+}
+
+.bg-infrastructure {
+    background-image: url(../images/Works.jpg);
+}
+
+.bg-residential:hover,
+.bg-commercial:hover,
+.bg-infrastructure:hover {
+    background-size: 110% 110%;
+}
+
+p {
+    color: #666666;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}

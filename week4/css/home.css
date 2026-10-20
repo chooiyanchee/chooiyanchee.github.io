@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+}
+
+.menu-bar {
+    display: flex;
+    gap: 50px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.menu-bar p {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 15px 30px;
+    margin-left: 10px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    filter: grayscale(100%);
+}
+
+.middle {
+    display: flex;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.middle-content {
+    width: 50%;
+}
+
+.middle-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.middle-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.mid-image {
+    width: 50%;
+    height: auto;
+}
+
+.mid-image img {
+    width: 100%;
+    height: auto;
+}
+
+.middle-button {
+    background-color: #191A23;
+    color: white;
+    border: 1px solid #191A23;
+    border-radius: 15px;
+    padding: 20px 25px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.middle-button:hover {
+    background-color: white;
+    color: #191A23;
+    border: 1px solid #191A23;
+}
+
+@media screen and (max-width: 1000px) {
+    .brands {
+        flex-wrap: wrap;
+    }
+
+    .menu-bar p {
+        font-size: 15px;
+        gap: 30px;
+    }
+
+    .menu-bar button {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .middle-content h1 {
+        font-size: 45px;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .middle {
+        flex-direction: column-reverse;
+    }
+
+    .middle-content,
+    .mid-image {
+        width: 100%;
+    }
+
+    .middle-button {
+        padding: 20px 150px;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .brand-logo {
+        width: 170px;
+        height: auto;
+        margin: 10px 0;
+    }
+}
