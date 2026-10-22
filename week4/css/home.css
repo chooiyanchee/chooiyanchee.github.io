@@ -159,7 +159,7 @@ body {
     }
 
     .middle-button {
-        padding: 20px 150px;
+        padding: 20px 130px;
     }
 
     .logo {
@@ -170,6 +170,6 @@ body {
     .brand-logo {
         width: 170px;
         height: auto;
-        margin: 10px 0;
+        margin: 10px 25px;
     }
 }
