@@ -83,13 +83,22 @@ body {
     }
 
     .side-menu {
-        margin: 0 10px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 1000px) {
+
     .menu-bar {
         display: none;
+    }
+
+    .side-menu {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 5px;
+        margin-left: auto;
     }
 
     .mobile-menu {
@@ -106,12 +115,8 @@ body {
         display: none;
     }
 
-    .side-menu {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 5px;
-        margin: 0;
+    .header {
+        justify-content: space-between;
     }
 }
 
