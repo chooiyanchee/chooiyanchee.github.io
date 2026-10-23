@@ -116,25 +116,25 @@ body {
 .service-header {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 50px;
 }
 
 .service-header span {
     display: inline;
     background-color: #b9ff66;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 600;
     padding: 2px 5px;
     border-radius: 5px;
 }
 
 .service-header p {
-    font-size: 13px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
 .service-list {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -147,10 +147,10 @@ body {
 .content,
 .analytics {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     width: 48%;
-    height: 215px;
     padding: 25px;
     border: 1px solid #292930;
     border-radius: 30px;
@@ -165,20 +165,23 @@ body {
 .service-content,
 .service-analytics {
     line-height: 1.4;
+    width: 50%;
+    margin-top: -70px;
+    padding: 10px;
 }
 
-.service-engine,
-.service-email {
+.engine,
+.email {
     background-color: #f3f3f3;
 }
 
-.service-advertising,
-.service-content {
+.advertising,
+.content {
     background-color: #B9FF66;
 }
 
-.service-social,
-.service-analytics {
+.social-media,
+.analytics {
     background-color: #191A23;
 }
 
@@ -191,8 +194,9 @@ body {
     display: inline;
     padding: 2px 4px;
     border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
 }
 
 .service-engine span,
@@ -202,16 +206,13 @@ body {
 }
 
 .service-image {
-    width: 130px;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-top: 10px;
+    margin: 30px 20px;
 }
 
 .learn-more {
-    display: block;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .learn-more .arrow {
