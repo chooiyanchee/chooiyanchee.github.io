@@ -261,6 +261,59 @@ body {
     background-color: white;
 }
 
+.ctu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.ctu-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #eae9e9;
+    border-radius: 50px;
+}
+
+.ctu-content {
+    width: 50%;
+}
+
+.ctu-content h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.ctu-button {
+    background-color: #191a23;
+    color: white;
+    font-size: 18px;
+    font-family: inherit;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 15px;
+}
+
+.ctu-image {
+    width: 40%;
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
+
+.ctu-face {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    display: block;
+}
+
 @media screen and (max-width: 1000px) {
     .brands {
         flex-wrap: wrap;
