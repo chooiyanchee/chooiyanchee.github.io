@@ -109,6 +109,11 @@ body {
     border: 1px solid #191A23;
 }
 
+.service-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .services {
     margin-top: 120px;
 }
@@ -120,7 +125,8 @@ body {
 }
 
 .service-header span {
-    display: inline;
+    display: flex;
+    align-items: center;
     background-color: #b9ff66;
     font-size: 40px;
     font-weight: 600;
@@ -137,7 +143,7 @@ body {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 50px;
 }
 
 .engine,
@@ -147,10 +153,10 @@ body {
 .content,
 .analytics {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     width: 48%;
+    height: 350px;
     padding: 25px;
     border: 1px solid #292930;
     border-radius: 30px;
@@ -166,7 +172,6 @@ body {
 .service-analytics {
     line-height: 1.4;
     width: 50%;
-    margin-top: -70px;
     padding: 10px;
 }
 
@@ -207,23 +212,25 @@ body {
 
 .service-image {
     height: auto;
-    margin: 30px 20px;
+    margin-left: auto;
+    margin-top: 0;
 }
 
 .learn-more {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
 }
 
 .learn-more .arrow {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 
 .learn-more p {
     display: inline;
-    font-size: 12px;
-    margin-left: 8px;
+    font-size: 14px;
+    margin-left: 10px;
 }
 
 .service-advertising span,
