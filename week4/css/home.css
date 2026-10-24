@@ -110,6 +110,9 @@ body {
 }
 
 .service-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     max-width: 1440px;
     margin: auto;
 }
@@ -155,13 +158,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 48%;
-    height: 350px;
-    padding: 25px;
+    position: relative;
+    width: 48.2%;
+    height: 330px;
+    padding: 30px;
     border: 1px solid #292930;
-    border-radius: 30px;
+    border-radius: 60px;
     box-shadow: 0 4px 0 #191a23;
     box-sizing: border-box;
+}
+
+.service-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .service-engine,
@@ -172,7 +183,7 @@ body {
 .service-analytics {
     line-height: 1.4;
     width: 50%;
-    padding: 10px;
+    margin: 20px 0px;
 }
 
 .engine,
@@ -211,15 +222,21 @@ body {
 }
 
 .service-image {
+    width: auto;
+    max-width: 50%;
     height: auto;
-    margin-left: auto;
-    margin-top: 0;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 50px;
 }
 
 .learn-more {
     display: flex;
     align-items: center;
     margin-top: auto;
+    padding: 0 20px;
 }
 
 .learn-more .arrow {
@@ -229,8 +246,13 @@ body {
 
 .learn-more p {
     display: inline;
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.social-media .learn-more p,
+.analytics .learn-more p {
+    color: white;
 }
 
 .service-advertising span,
