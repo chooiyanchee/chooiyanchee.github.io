@@ -181,9 +181,9 @@ body {
 .service-email,
 .service-content,
 .service-analytics {
-    line-height: 1.4;
-    width: 50%;
-    margin: 20px 0px;
+    line-height: 1.3;
+    width: 60%;
+    margin: 20px 0;
 }
 
 .engine,
@@ -261,14 +261,6 @@ body {
     background-color: white;
 }
 
-.ctu-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1440px;
-    margin: auto;
-}
-
 .ctu-section {
     display: flex;
     flex-direction: row;
@@ -289,6 +281,10 @@ body {
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: 0;
+}
+
+.ctu-content p {
+    font-size: 18px;
 }
 
 .ctu-button {
@@ -314,32 +310,75 @@ body {
     display: block;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .brands {
         flex-wrap: wrap;
     }
 
     .menu-bar p {
         font-size: 15px;
-        gap: 30px;
+        gap: 25px;
     }
 
     .menu-bar button {
         font-size: 13px;
     }
-}
-
-@media screen and (max-width: 800px) {
-    .middle-content h1 {
-        font-size: 45px;
-        gap: 20px;
-    }
 
     .logo {
-        width: 300px;
-        height: auto;
+        width: 230px;
+    }
+
+    .service-list {
+        gap: 30px;
+    }
+
+    .service-header span {
+        font-size: 35px;
+    }
+
+    .service-header p {
+        font-size: 18px;
+    }
+
+    .engine,
+    .advertising,
+    .social-media,
+    .email,
+    .content,
+    .analytics {
+        padding: 25px;
+    }
+
+    .service-engine span,
+    .service-advertising span,
+    .service-social span,
+    .service-email span,
+    .service-content span,
+    .service-analytics span {
+        font-size: 21.5px;
+    }
+
+    .service-image {
+        width: 140px;
+    }
+
+    .learn-more p {
+        font-size: 18px;
+    }
+
+    .ctu-section {
+        padding: 40px;
+    }
+
+    .ctu-content h2 {
+        font-size: 24px;
+    }
+
+    .ctu-face {
+        max-width: 280px;
     }
 }
+
 
 @media screen and (max-width: 700px) {
     .container {
@@ -376,5 +415,109 @@ body {
         width: 170px;
         height: auto;
         margin: 10px 25px;
+    }
+
+    .service-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .service-list {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        margin-top: 30px;
+    }
+
+    .service-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .service-header span {
+        font-size: 35px;
+    }
+
+    .service-header p {
+        font-size: 16px;
+    }
+
+    .engine,
+    .advertising,
+    .social-media,
+    .email,
+    .content,
+    .analytics {
+        width: 100%;
+        height: 320px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .service-engine span,
+    .service-advertising span,
+    .service-social span,
+    .service-email span,
+    .service-content span,
+    .service-analytics span {
+        font-size: 25px;
+    }
+
+    .service-image {
+        width: 45%;
+        max-width: 140px;
+        height: auto;
+        transform: translateY(-20%);
+    }
+
+    .learn-more {
+        margin-bottom: 30px;
+    }
+
+    .learn-more p {
+        display: none;
+    }
+
+    .ctu-section {
+        width: 100%;
+        height: 350px;
+        padding: 40px 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 80px;
+    }
+
+    .desktop-break {
+        display: none;
+    }
+
+    .ctu-content {
+        width: 100%;
+    }
+
+    .ctu-content h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .ctu-content p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .ctu-button {
+        width: 100%;
+        padding: 23px 10px;
+        font-size: 17px;
+    }
+
+    .ctu-face {
+        display: none;
     }
 }
