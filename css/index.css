@@ -1,3 +1,49 @@
 body {
     background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    width: 100%;
+    background-color: #8CA9FF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 10px;
+}
+
+.social-media {
+    gap: 10px;
+    padding: 20px;
+}
+
+.social-media a:first-child img {
+    height: 43px;
+    width: auto;
+}
+
+.social-media a:nth-child(2) img {
+    height: 28px;
+    padding: 5px 3px 5px 0;
+
+}
+
+.social-media a:nth-child(3) img {
+    height: 26px;
+    padding: 5px 5px;
+}
+
+.footer-container {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #8CA9FF;
 }
