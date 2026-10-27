@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* === ROOT VARIABLES === */
+:root {
+    --primary: #2b8df5;
+    --secondary: #f5b42b;
+    --text-dark: #222;
+    --text-light: #777;
+    --bg-light: #f9f9f9;
+    --radius: 8px;
+    --font-base: "Inter", sans-serif;
+}
+
+
+/* === RESET / NORMALIZE === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* === GLOBAL TYPOGRAPHY  === */
+body {
+    font-family: var(--font-base);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1em;
+    color: var(--text-light);
+}
+
+a:hover {
+    color: var(--primary);
+}
