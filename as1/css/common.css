@@ -9,14 +9,14 @@
     --bg-dark-grey: #333333;
     --btn-border-dark: #000;
     --btn-border-light: #fff;
-    --btn-border-grey: #d3d3d3;
+    --btn-border-grey: #a1a1a1;
     --bg-light-grey: #a1a1a1;
     --color-primary: #bda16b;
     --font-base: "Work Sans", sans-serif;
     --font-heading: "Bebas Neue", sans-serif;
     --font-paragraph: "Lora", serif;
     --font-italic: "Lora", serif;
-    --btn-padding: 10px 18px;
+    --btn-padding: 11px 42px;
     --transition: 0.3s ease;
 }
 
@@ -122,7 +122,7 @@ p {
 }
 
 .btn-white {
-    padding: 18px 44px;
+    padding: var(--btn-padding);
     background: var(--bg-dark);
     color: var(--text-light);
     border: 1px solid var(--btn-border-light);
@@ -141,7 +141,7 @@ p {
 }
 
 .btn-grey {
-    padding: 18px 44px;
+    padding: var(--btn-padding);
     background: var(--bg-light);
     color: var(--text-dark);
     border: 1px solid var(--btn-border-grey);
