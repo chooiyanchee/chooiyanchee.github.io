@@ -28,7 +28,7 @@
     box-sizing: border-box;
 }
 
-img {
+.hero-image {
     max-width: 100%;
     display: block;
 }
@@ -38,7 +38,13 @@ a {
     color: inherit;
 }
 
+
 /* === GLOBAL TYPOGRAPHY  === */
+body {
+    background: var(--bg-dark);
+    color: var(--text-light);
+}
+
 h1 {
     font-family: var(--font-heading);
     font-size: 95px;
@@ -153,7 +159,7 @@ p {
     border-color: var(--btn-border-dark);
 }
 
-.menu-btn {
+.nav-btn {
     display: block;
     padding: var(--btn-padding);
     background: var(--bg-dark-grey);
@@ -167,7 +173,7 @@ p {
     transition: var(--transition);
 }
 
-.menu-btn:hover {
+.nav-btn:hover {
     background: var(--color-primary);
     color: var(--text-light);
 }
