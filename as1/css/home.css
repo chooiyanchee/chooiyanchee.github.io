@@ -79,18 +79,16 @@
 .popular-section {
     width: 100%;
     margin: 0;
-    padding: 60px 9% 80px;
+    padding: 60px 9% 130px;
     box-sizing: border-box;
     background: var(--bg-light);
 }
 
-/* Section Heading */
 .popular-heading {
     text-align: center;
     margin-bottom: 60px;
 }
 
-/* Section Title */
 .popular-heading .section-title {
     margin-top: 30px;
     color: var(--text-dark);
@@ -101,13 +99,11 @@
     margin: 70px auto 130px;
 }
 
-/* Popular Heading */
 .popular-heading h2 {
     margin-bottom: 30px;
     color: var(--text-dark);
 }
 
-/* Description */
 .popular-heading p {
     margin: auto;
     color: var(--text-dark);
@@ -120,34 +116,29 @@
     gap: 35px;
 }
 
-/* Individual Card */
 .dessert-card,
 .seasonal-card {
     width: 24%;
     text-align: center;
 }
 
-/* Chef Specials Card */
 .chef-card {
     width: 42%;
     text-align: center;
 }
 
-/* Food Images */
 .dessert-card img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* Card Heading */
 .dessert-card h4,
 .seasonal-card h4 {
     margin: 35px 0;
     color: var(--text-dark);
 }
 
-/* Chef Specials Heading */
 .chef-card h4 {
     font-size: 56px;
     margin: 35px 0;
@@ -160,4 +151,35 @@
 .seasonal-card .btn {
     display: inline-block;
     text-decoration: none;
+}
+
+/* Atmosphere Section */
+.atmosphere-section {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.atmosphere-image {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+}
+
+.atmosphere-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+.atmosphere-content {
+    position: relative;
+    padding: 150px 0;
+    width: 82%;
+    margin: auto;
+}
+
+.atmosphere-content h2 {
+    margin-bottom: 40px;
 }
