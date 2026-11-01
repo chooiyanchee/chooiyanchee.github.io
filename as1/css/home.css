@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
     width: 82%;
     height: 109px;
     margin: auto;
@@ -195,10 +194,13 @@
 .footer-image {
     position: absolute;
     width: 100%;
+    height: 100%;
 }
 
 .footer-image img {
     width: 100%;
+    height: 100%;
+    display: block;
     object-fit: cover;
     filter: brightness(20%);
 }
@@ -262,7 +264,7 @@
 
     .logo img {
         width: 200px;
-        padding: 0 0 0 30px;
+        padding: 0 0 0 15px;
     }
 
     .nav {
@@ -427,7 +429,7 @@
 
     .footer-image img {
         width: 100%;
-        height: 100%;
+        height: 520px;
         object-fit: cover;
         object-position: center;
     }
@@ -455,5 +457,167 @@
     .footer-icon {
         width: 20px;
         height: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        height: 120px;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        max-width: 500px;
+    }
+
+    .logo img {
+        padding: 0 0 0 15px;
+    }
+
+    .popular-section {
+        padding: 30px 0 0 0;
+    }
+
+    .popular-heading {
+        padding: 30px 0 30px 0;
+    }
+
+    .popular-heading .section-title {
+        font-size: 30px;
+    }
+
+    .popular-heading h2 {
+        font-size: 50px;
+        line-height: 1.2;
+        align-items: center;
+    }
+
+    .popular-heading p {
+        font-size: 12px;
+        width: 100%;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+
+    .heading-line {
+        width: 70%;
+        margin: 15px auto;
+    }
+
+    .dessert-card img,
+    .seasonal-card img,
+    .chef-card img {
+        width: 100%;
+        height: 455px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .dessert-card h4,
+    .seasonal-card h4,
+    .chef-card h4 {
+        font-size: 30px;
+        margin: 35px 0 15px 0;
+    }
+
+    .dessert-card .btn,
+    .seasonal-card .btn,
+    .chef-card .btn {
+
+        margin-bottom: 100px;
+    }
+
+    .atmosphere-section {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .atmosphere-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .atmosphere-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .atmosphere-content {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .atmosphere-content h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .atmosphere-content p {
+        font-size: 14px;
+        line-height: 1.6;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-section {
+        width: 100%;
+        height: 350px;
+        margin: 0;
+        position: relative;
+    }
+
+    .footer-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .footer-content {
+        position: relative;
+        padding: 50px 7%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 160px;
+        margin: 0 auto 20px;
+    }
+
+    .footer-content p {
+        width: 99%;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .footer-social a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-icon {
+        width: 18px;
+        height: 18px;
     }
 }
