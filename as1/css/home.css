@@ -125,7 +125,8 @@
     text-align: center;
 }
 
-.dessert-card img {
+.dessert-card img,
+.seasonal-card img {
     width: 100%;
     height: auto;
     display: block;
