@@ -195,7 +195,6 @@
 .footer-image {
     position: absolute;
     width: 100%;
-    height: 100%;
 }
 
 .footer-image img {
@@ -528,7 +527,6 @@
     .dessert-card .btn,
     .seasonal-card .btn,
     .chef-card .btn {
-
         margin-bottom: 100px;
     }
 
@@ -570,10 +568,8 @@
     }
 
     .footer-section {
-        width: 100%;
         height: 350px;
         margin: 0;
-        position: relative;
     }
 
     .footer-image {
@@ -585,11 +581,9 @@
     .footer-image img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
     }
 
     .footer-content {
-        position: relative;
         padding: 50px 7%;
         text-align: center;
     }
