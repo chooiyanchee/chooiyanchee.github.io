@@ -1,0 +1,44 @@
+.nav-heading.our {
+    color: var(--text-light);
+}
+
+.hero {
+    display: flex;
+    width: 82%;
+    height: 825px;
+    margin: auto;
+    gap: 40px;
+}
+
+.hero-content {
+    width: 82%;
+    padding: 100px 0 0 0;
+}
+
+.sub-title {
+    margin-bottom: 18px;
+}
+
+.hero-content h1 {
+    margin-bottom: 40px;
+}
+
+.hero-content p {
+    max-width: 550px;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 80% center;
+    filter: brightness(70%);
+}
