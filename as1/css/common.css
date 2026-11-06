@@ -112,22 +112,22 @@ p {
 .btn,
 .btn-white,
 .btn-grey,
+.btn-gold,
 .nav-btn {
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 1px;
+    padding: var(--btn-padding);
 }
 
 .btn {
     font-family: var(--font-base);
-    padding: var(--btn-padding);
     cursor: pointer;
     transition: var(--transition);
     border: 1px solid var(--btn-border-dark);
 }
 
 .btn-white {
-    padding: var(--btn-padding);
     background: var(--bg-dark);
     color: var(--text-light);
     border: 1px solid var(--btn-border-light);
@@ -142,7 +142,6 @@ p {
 }
 
 .btn-grey {
-    padding: var(--btn-padding);
     background: var(--bg-light);
     color: var(--text-dark);
     border: 1px solid var(--btn-border-grey);
@@ -156,9 +155,22 @@ p {
     border-color: var(--btn-border-dark);
 }
 
+.btn-gold {
+    background: var(--color-primary);
+    color: var(--text-light);
+    border: 1px solid var(--btn-border-dark);
+    font-family: var(--font-base);
+    transition: var(--transition);
+}
+
+.btn-gold:hover {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    border-color: var(--btn-border-dark);
+}
+
 .nav-btn {
     display: block;
-    padding: var(--btn-padding);
     background: var(--bg-dark-grey);
     color: var(--text-light);
     text-align: center;
