@@ -90,13 +90,13 @@
     margin-top: 100px;
 }
 
-.menu {
+.menu-section {
     width: 100%;
     padding: 70px 0 90px;
 }
 
 .menu-container {
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 
@@ -204,7 +204,7 @@
 }
 
 .favourite-dish {
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
     background-color: var(--bg-dark);
@@ -265,4 +265,103 @@
 .btn.btn-black {
     height: 58px;
     border: none;
+}
+
+/* Review Cart */
+.checkout-section {
+    width: 100%;
+    padding: 100px 0 100px;
+}
+
+.checkout-container {
+    width: 85%;
+    margin: auto;
+}
+
+.checkout-text {
+    margin-bottom: 30px;
+}
+
+.checkout-text .sub-title {
+    margin-bottom: 12px;
+}
+
+.checkout-text h4 {
+    margin-bottom: 30px;
+}
+
+.checkout-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.checkout-card {
+    width: 32%;
+    background-color: var(--bg-dark-grey);
+}
+
+.checkout-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.checkout-content {
+    padding: 40px;
+}
+
+.checkout-content h4 {
+    margin-bottom: 20px;
+}
+
+.checkout-description {
+    margin-bottom: 12px;
+}
+
+.checkout-price {
+    font-size: 17px;
+    color: var(--color-primary);
+    margin-bottom: 25px;
+}
+
+.checkout-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkout-buttons .quantity {
+    display: flex;
+    width: 100%;
+}
+
+.checkout-buttons .quantity button,
+.checkout-buttons .quantity p {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-buttons .btn.btn-gold,
+.checkout-buttons .btn.btn-white {
+    width: 100%;
+}
+
+.review-cart {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.review-cart h4 {
+    margin: 12px 0 25px;
+}
+
+.review-description {
+    margin-bottom: 25px;
+}
+
+.review-cart .btn.btn-gold {
+    width: 18%;
+    height: 50px;
 }
