@@ -113,15 +113,17 @@ p {
 .btn-white,
 .btn-grey,
 .btn-gold,
+.btn-black,
 .nav-btn {
     font-size: 15px;
+    font-family: var(--font-base);
     line-height: 18px;
     letter-spacing: 1px;
     padding: var(--btn-padding);
+    transition: var(--transition);
 }
 
 .btn {
-    font-family: var(--font-base);
     cursor: pointer;
     transition: var(--transition);
     border: 1px solid var(--btn-border-dark);
@@ -131,8 +133,6 @@ p {
     background: var(--bg-dark);
     color: var(--text-light);
     border: 1px solid var(--btn-border-light);
-    font-family: var(--font-base);
-    transition: var(--transition);
 }
 
 .btn-white:hover {
@@ -141,12 +141,16 @@ p {
     border-color: var(--btn-border-dark);
 }
 
+.btn-black {
+    background: var(--bg-light);
+    color: var(--text-dark);
+    border: 1px solid var(--btn-border-dark);
+}
+
 .btn-grey {
     background: var(--bg-light);
     color: var(--text-dark);
     border: 1px solid var(--btn-border-grey);
-    font-family: var(--font-base);
-    transition: var(--transition);
 }
 
 .btn-grey:hover {
@@ -159,8 +163,6 @@ p {
     background: var(--color-primary);
     color: var(--text-light);
     border: 1px solid var(--btn-border-dark);
-    font-family: var(--font-base);
-    transition: var(--transition);
 }
 
 .btn-gold:hover {
@@ -174,8 +176,6 @@ p {
     background: var(--bg-dark-grey);
     color: var(--text-light);
     text-align: center;
-    font-family: var(--font-base);
-    transition: var(--transition);
 }
 
 .nav-btn:hover {

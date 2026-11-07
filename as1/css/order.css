@@ -60,7 +60,7 @@
 }
 
 .intro-content {
-    width: 66.67%;
+    width: 67%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -89,3 +89,109 @@
     display: inline-block;
     margin-top: 100px;
 }
+
+.menu {
+    width: 100%;
+    padding: 70px 0 90px;
+}
+
+.menu-container {
+    width: 75%;
+    margin: auto;
+}
+
+.menu-content {
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.menu-card {
+    width: 48%;
+    background-color: var(--bg-dark-grey);
+}
+
+.menu-card img {
+    width: 100%;
+}
+
+.menu-card-content {
+    padding: 30px 25px 60px 30px;
+}
+
+.sub-title.lob {
+    margin-bottom: 15px;
+}
+
+.menu-card-content h4 {
+    margin-bottom: 15px;
+}
+
+.menu-card-description {
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+.menu-price {
+    font-size: 17px;
+    color: var(--color-primary);
+    margin-bottom: 25px;
+}
+
+.menu-card-button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.quantity {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border: 1px solid var(--btn-border-grey);
+}
+
+.quantity button,
+.quantity p {
+    width: 34%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity button {
+    background: none;
+    color: var(--text-light);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.quantity p {
+    display: flex;
+    align-items: center;
+    color: var(--text-light);
+    border-right: 1px solid var(--btn-border-grey);
+    border-left: 1px solid var(--btn-border-grey);
+    padding: 0 20px;
+}
+
+.btn.btn-gold {
+    width: 32%;
+    height: 50px;
+    padding: 12px 25px;
+}
+
+.btn.btn-white {
+    width: 26%;
+    height: 50px;
+    padding: 11px 20px;
+    background: none;
+}
+
+/*Featured Dish*/
