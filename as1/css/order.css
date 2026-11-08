@@ -590,3 +590,201 @@
         height: 48px;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 20px 5%;
+        background: var(--bg-dark);
+    }
+
+    .hero {
+        position: relative;
+        height: 400px;
+    }
+
+    .order-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .order-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .order-content {
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    .intro {
+        padding: 100px 0 150px 0;
+        ;
+    }
+
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .intro-text {
+        width: 100%;
+    }
+
+    .intro-cart {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .intro-cart .btn.btn-grey {
+        width: 100%;
+        height: 48px;
+    }
+
+    /*menu section*/
+    .menu-section {
+        padding: 80px 0;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .menu-card {
+        width: 100%;
+    }
+
+    .menu-card img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .menu-card-content {
+        padding: 50px 30px 50px 30px;
+    }
+
+    .menu-price {
+        font-size: 13px;
+    }
+
+    .menu-card-content h4,
+    .menu-card-content p {
+        margin-bottom: 15px;
+    }
+
+    .menu-card-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .quantity {
+        display: flex;
+        width: 40%;
+        height: 40px;
+    }
+
+    .quantity button,
+    .quantity p {
+        width: 40%;
+        height: 40px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .btn.btn-gold,
+    .btn.btn-white {
+        font-size: 14px;
+        width: 100%;
+        height: 40px;
+    }
+
+    /* Featured Dish */
+    .favourite-content {
+        padding: 70px 30px 90px 50px;
+    }
+
+    .favourite-content h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .favourite-description {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .favourite-buttons {
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .favourite-buttons .quantity {
+        width: 150px;
+        height: 50px;
+    }
+
+    .favourite-buttons .quantity button,
+    .favourite-buttons .quantity p {
+        width: 150px;
+        height: 50px;
+        margin: 0;
+    }
+
+    .btn.btn-black {
+        font-size: 13px;
+        width: 190px;
+        height: 50px;
+    }
+
+    /*Review Cart*/
+    .checkout-section {
+        padding: 60px 0 90px 0;
+    }
+
+    .checkout-container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .checkout-item {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .checkout-card {
+        width: 100%;
+    }
+
+    .checkout-content {
+        padding: 40px;
+    }
+
+    .checkout-content h4 {
+        font-size: 20px;
+    }
+
+    .checkout-description {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .checkout-price {
+        font-size: 13px;
+    }
+
+    .review-description {
+        font-size: 15px;
+    }
+}

@@ -377,7 +377,7 @@ p {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
     .header {
         height: 120px;
     }
