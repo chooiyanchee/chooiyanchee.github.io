@@ -41,15 +41,24 @@
     gap: 15px;
 }
 
-.order-subtitle p {
+.order-subtitle .sub-title {
     font-size: 13px;
     letter-spacing: 1px;
+    margin: 0;
 }
 
 .order-subtitle .line {
     width: 80px;
     height: 1px;
     background-color: var(--text-light);
+}
+
+.mobile-title {
+    display: none;
+}
+
+.desktop-title {
+    display: block;
 }
 
 /* Intro Section */
