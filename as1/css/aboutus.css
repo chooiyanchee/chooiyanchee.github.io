@@ -216,3 +216,169 @@ header {
     height: 250px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 750px;
+        position: relative;
+        order: 1;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .about-content {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 100px 70px 150px;
+        box-sizing: border-box;
+        order: 2;
+    }
+
+    .about-content h1 {
+        font-size: 90px;
+        margin-bottom: 50px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        max-width: 600px;
+    }
+
+    .about-subtitle .line {
+        display: none;
+    }
+
+    .culinary-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .culinary-title {
+        width: 100%;
+        padding: 40px 0 70px 0;
+    }
+
+    .culinary-image {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .culinary-image img {
+        width: 70%;
+        height: 600px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .culinary-content {
+        width: 100%;
+        padding: 35px 0;
+        text-align: center;
+    }
+
+    .culinary-description {
+        width: 100%;
+        padding: 55px 110px;
+    }
+
+    .commitment-section {
+        height: 750px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .commitment-image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .commitment-image img {
+        width: 100%;
+        object-fit: cover;
+        display: none;
+    }
+
+    .commitment-image img:first-child {
+        display: block;
+        object-position: 0 30%;
+        filter: brightness(30%);
+    }
+
+    .commitment-content {
+        width: 100%;
+        height: 100%;
+        padding: 0 10%;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .commitment-content p {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .achievement-section {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .achievement-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achievement-content {
+        z-index: 2;
+        padding: 100px 110px;
+    }
+
+    .achievement-content h2 {
+        margin-bottom: 30px;
+    }
+
+    .achievement-content p {
+        width: 650px;
+    }
+
+    .achievement-item {
+        gap: 40px;
+        margin-top: 40px;
+    }
+
+    .achievement-line {
+        width: 90px;
+        margin-bottom: 25px;
+    }
+
+    .achievement-item img {
+        width: 180px;
+        height: 180px;
+        object-fit: contain;
+        display: block;
+    }
+}
