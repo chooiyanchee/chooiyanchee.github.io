@@ -66,8 +66,6 @@
     display: none;
 }
 
-
-
 /* Intro Section */
 .intro {
     width: 100%;
@@ -590,7 +588,7 @@
     .header {
         width: 100%;
         margin: 0;
-        padding: 20px 5%;
+        padding: 20px 24px;
         background: var(--bg-dark);
     }
 

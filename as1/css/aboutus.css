@@ -220,7 +220,6 @@ header {
         height: auto;
         display: flex;
         flex-direction: column;
-        position: relative;
     }
 
     .about-image {
@@ -429,7 +428,7 @@ header {
     }
 
     .culinary-description {
-        padding: 20px 8% 30px;
+        padding: 20px 38px 30px;
     }
 
     .culinary-description p {
