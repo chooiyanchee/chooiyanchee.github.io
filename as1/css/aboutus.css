@@ -149,7 +149,6 @@ header {
 .achievement-section {
     width: 100%;
     min-height: 900px;
-    position: relative;
 }
 
 .achievement-bg {
@@ -168,7 +167,7 @@ header {
 .achievement-content {
     width: 100%;
     position: relative;
-    padding: 90px 8% 70px;
+    padding: 90px 130px 70px;
 }
 
 .achievement-title {
