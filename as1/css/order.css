@@ -453,7 +453,7 @@
 
     .quantity button,
     .quantity p {
-        width: 34%;
+        width: 100%;
         height: 40px;
     }
 
@@ -674,19 +674,18 @@
 
     .menu-card-button {
         display: flex;
-        flex-direction: row;
         align-items: center;
         gap: 10px;
     }
 
     .quantity {
-        width: 40%;
+        width: 100%;
         height: 40px;
     }
 
     .quantity button,
     .quantity p {
-        width: 40%;
+        width: 100%;
         height: 40px;
         margin: 0;
         padding: 20px;
