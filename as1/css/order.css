@@ -16,7 +16,6 @@
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
     z-index: -1;
 }
 
@@ -422,13 +421,6 @@
 
     .menu-section {
         padding: 70px 0;
-    }
-
-    .menu-items {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
     }
 
     .menu-card-content {
