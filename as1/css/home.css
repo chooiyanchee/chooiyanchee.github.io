@@ -45,7 +45,6 @@
 /* Popular Section */
 .popular-section {
     width: 100%;
-    margin: 0;
     padding: 60px 152px 130px;
     background: var(--bg-light);
 }

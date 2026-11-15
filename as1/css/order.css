@@ -187,7 +187,6 @@
 }
 
 .quantity p {
-    display: flex;
     align-items: center;
     color: var(--text-light);
     border-right: 1px solid var(--btn-border-grey);
@@ -692,6 +691,7 @@
         margin: 0;
         padding: 20px;
     }
+
 
     .btn.btn-gold,
     .btn.btn-white {
