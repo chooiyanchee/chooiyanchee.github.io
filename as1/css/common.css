@@ -114,6 +114,7 @@ p {
 .btn,
 .btn-white,
 .btn-grey,
+.btn-black-grey,
 .btn-gold,
 .btn-black,
 .nav-btn {
@@ -158,6 +159,18 @@ p {
 .btn-grey:hover {
     background: var(--bg-light);
     color: var(--text-dark);
+    border-color: var(--btn-border-dark);
+}
+
+.btn-black-grey {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    border: 1px solid var(--btn-border-light);
+}
+
+.btn-black-grey:hover {
+    background: var(--bg-light);
+    color: var(--text-light);
     border-color: var(--btn-border-dark);
 }
 
