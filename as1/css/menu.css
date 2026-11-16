@@ -19,10 +19,11 @@
 .hero-content {
     position: absolute;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 300px;
+    padding: 300px 0 0 0;
 }
 
 /* Recommendation Section */
@@ -215,4 +216,92 @@
     display: inline-block;
     margin-top: 20px;
     padding: 20px 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-content {
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* Recommendation Section */
+
+    .recommendation-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .menu-card {
+        width: 80%;
+        height: auto;
+    }
+
+    .menu-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Main Course Section */
+
+    .main-course-section {
+        flex-direction: column;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .main-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-content {
+        width: auto;
+        padding: 50px 70px;
+    }
+
+    .main-content h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .main-item p {
+        max-width: 750px;
+    }
+
+    /* Dessert Section */
+    .dessert-section {
+        padding: 150px 30px;
+        height: auto;
+    }
+
+    .dessert-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .dessert-card,
+    .dessert-card-down {
+        width: 100%;
+        top: 0;
+        flex-direction: column-reverse;
+    }
+
+    .dessert-card img,
+    .dessert-card-down img {
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+    }
+
+    .cocktail-content {
+        padding: 200px 100px;
+    }
 }
