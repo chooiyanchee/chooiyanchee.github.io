@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-.elegance-content h2 {
+.elegance-content h1 {
     margin-bottom: 70px;
     color: var(--text-dark);
 }
@@ -59,13 +59,12 @@
 .elegance-container {
     display: flex;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
     justify-content: center;
 }
 
 .elegance-item img {
     width: auto;
-    height: 400px;
     object-fit: cover;
     display: block;
 }
@@ -73,7 +72,7 @@
 .middle-left img,
 .middle-right img {
     width: auto;
-    height: 300px;
+    height: 400px;
 }
 
 /* Gallery Section */
@@ -84,7 +83,7 @@
     text-align: center;
 }
 
-.gallery-content h2 {
+.gallery-content h1 {
     margin-bottom: 15px;
     color: var(--text-dark);
 }
@@ -97,8 +96,6 @@
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 0;
-    width: 100%;
 }
 
 .gallery-item {
@@ -114,13 +111,12 @@
 
 /* About Us Section */
 .about-section {
-    width: 100%;
     padding: 80px 100px;
     text-align: center;
     background-color: var(--bg-light);
 }
 
-.about-content h2 {
+.about-content h1 {
     margin: 40px 0;
     color: var(--text-dark);
 }
@@ -128,7 +124,6 @@
 .about-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
 }
 
 .about-card {
@@ -157,7 +152,7 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .hero {
         display: block;
         width: 100%;
@@ -242,7 +237,7 @@
         padding: 100px 40px;
     }
 
-    .about-content h2 {
+    .about-content h1 {
         margin-bottom: 100px;
     }
 
@@ -306,7 +301,7 @@
         padding: 80px 50px;
     }
 
-    .elegance-content h2 {
+    .elegance-content h1 {
         margin-bottom: 80px;
         padding: 0 70px;
     }
@@ -337,7 +332,7 @@
         height: auto;
     }
 
-    .about-content h2 {
+    .about-content h1 {
         margin: 0 0 50px 0;
         padding: 0 50px;
     }

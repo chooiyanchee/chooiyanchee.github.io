@@ -14,8 +14,6 @@ header {
     width: 100%;
     height: 750px;
     position: relative;
-    display: flex;
-    flex-direction: row;
 }
 
 .about-content {
@@ -69,10 +67,8 @@ header {
 
 /* Culinary Section */
 .culinary-section {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
     background-color: var(--bg-light);
+    overflow: hidden;
 }
 
 .culinary-content {
@@ -112,8 +108,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
 }
 
 .commitment-content {
@@ -136,6 +130,7 @@ header {
 .commitment-image {
     height: 800px;
     display: flex;
+    overflow: hidden;
 }
 
 .commitment-image img {
@@ -147,27 +142,18 @@ header {
 
 /* Achievement Section */
 .achievement-section {
-    width: 100%;
-    min-height: 900px;
-}
-
-.achievement-bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-}
-
-.achievement-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url('../images/achieve bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .achievement-content {
     width: 100%;
     position: relative;
-    padding: 90px 130px 70px;
+    padding: 130px 110px;
 }
 
 .achievement-title {
@@ -240,7 +226,6 @@ header {
         height: auto;
         position: relative;
         padding: 100px 70px 150px;
-        box-sizing: border-box;
         order: 2;
     }
 
@@ -273,16 +258,12 @@ header {
 
     .culinary-image {
         width: 75%;
-        display: flex;
-        flex-direction: row;
         gap: 0;
     }
 
     .culinary-image img {
         width: 70%;
         height: 600px;
-        object-fit: cover;
-        display: block;
     }
 
     .culinary-content {
@@ -299,9 +280,7 @@ header {
     .commitment-section {
         height: 750px;
         justify-content: center;
-        align-items: center;
         position: relative;
-        overflow: hidden;
     }
 
     .commitment-image {
@@ -336,25 +315,14 @@ header {
     }
 
     .achievement-section {
-        display: flex;
         flex-direction: column;
         overflow: hidden;
     }
 
     .achievement-cards {
-        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .achievement-content {
-        z-index: 2;
-        padding: 100px 110px;
-    }
-
-    .achievement-content h2 {
-        margin-bottom: 30px;
     }
 
     .achievement-content p {
@@ -419,8 +387,6 @@ header {
     .culinary-image img {
         width: 100%;
         height: 380px;
-        object-fit: cover;
-        display: block;
     }
 
     .culinary-image img:nth-child(2) {

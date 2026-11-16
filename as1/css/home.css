@@ -61,7 +61,7 @@
 
 .heading-line {
     width: 47%;
-    margin: 70px auto 130px;
+    margin: 70px auto 100px;
 }
 
 .popular-heading h2 {
@@ -78,13 +78,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-}
-
-.popular-item {
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .popular-item img {
@@ -128,7 +121,6 @@
 .chef-card .btn,
 .seasonal-card .btn {
     display: inline-block;
-    text-decoration: none;
 }
 
 /* Atmosphere Section */
