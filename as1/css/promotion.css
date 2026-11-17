@@ -266,3 +266,104 @@
 .btn.btn-black {
     display: inline-block;
 }
+
+/* Membership Section */
+.membership-banner {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.membership-banner-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.membership-banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.membership-banner-content {
+    position: relative;
+}
+
+.membership-banner-content h2 {
+    margin: 0 0 20px;
+}
+
+.membership-banner-content p {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.membership-section {
+    width: 100%;
+    background-color: var(--bg-light);
+    padding: 40px 0 80px;
+}
+
+.membership-container {
+    width: 82%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.membership-card {
+    width: 28%;
+    position: relative;
+    color: var(--text-light);
+}
+
+.membership-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.membership-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership-content h4 {
+    font-size: 25px;
+    margin: 20px 0 20px;
+    text-align: center;
+}
+
+.membership-benefits {
+    width: 100%;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.membership-benefits p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn.btn-white {
+    width: 55%;
+    padding: 6px;
+    text-align: center;
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 320px;
+
+
+}
