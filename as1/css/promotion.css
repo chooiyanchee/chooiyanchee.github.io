@@ -364,6 +364,196 @@
     display: block;
     position: absolute;
     top: 320px;
+}
+
+@media screen and (max-width: 1200px) {
+    .promotion-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .promotion-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .promotion-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .promotion-content {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 150px 150px;
+    }
+
+    .promotion-subtitle {
+        justify-content: flex-start;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-content h1 {
+        margin: 0 0 20px;
+    }
+
+    .promotion-content p {
+        max-width: 400px;
+        margin-bottom: 15px;
+    }
+
+    /* Seasonal Section */
+
+    .seasonal-section {
+        padding: 60px 30px;
+    }
+
+    .seasonal-heading p:first-child {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .seasonal-heading h2 {
+        font-size: 50px;
+        margin: 0 0 20px;
+    }
+
+    .seasonal-description {
+        font-size: 16px;
+        max-width: 650px;
+    }
+
+    .seasonal-menu {
+        width: 100%;
+        margin: 40px auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .seasonal-card {
+        width: 100%;
+    }
+
+    .seasonal-card img {
+        width: 40%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 40%;
+    }
+
+    .seasonal-card h4 {
+        margin: 30px 0 10px;
+    }
+
+    .seasonal-card p {
+        max-width: 350px;
+        margin: 0 0 12px;
+    }
+
+    /* Evening Section */
+    .evening-section {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .evening-container {
+        width: 100%;
+        height: auto;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .evening-card-dessert,
+    .evening-card-menu,
+    .evening-card-wine {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .evening-card-dessert img,
+    .evening-card-menu img,
+    .evening-card-wine img {
+        width: 55%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .evening-card h4,
+    .evening-card-dessert h4,
+    .evening-card-menu h4,
+    .evening-card-wine h4 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .evening-reservation {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .reservation-text {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Membership Section */
+
+    .membership-banner-content p {
+        max-width: 600px;
+    }
+
+    .membership-section {
+        padding: 120px 0 80px;
+    }
+
+    .membership-container {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px 0;
+    }
+
+    .membership-card {
+        width: 42%;
+    }
+
+    .membership-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .membership-content {
+        height: 100%;
+        padding: 40px;
+    }
+
+    .membership-content h4 {
+        margin: 15px 0;
+    }
+
+    .membership-benefits p {
+        font-size: 14px;
+    }
+
+    .btn.btn-white {
+        position: relative;
+        top: auto;
+        margin-top: auto;
+    }
 
 
 }
