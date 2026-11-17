@@ -17,12 +17,12 @@
             </div>
 
             <div class="nav">
-                <div class="menu">
-                    <div><a href="index.html" class="nav-heading home">Home</a></div>
-                    <div><a href="menu.html" class="nav-heading menu">Menu</a></div>
-                    <div><a href="orders.html" class="nav-heading order">Order</a></div>
-                    <div><a href="as1/promotion.html" class="nav-heading promo">Promotion</a></div>
-                    <div class="has-submenu">
+                <div class="menu" id="mobile-menu">
+                    <div class="menu-item"><a href="index.html" class="nav-heading home">Home</a></div>
+                    <div class="menu-item"><a href="menu.html" class="nav-heading menu-link">Menu</a></div>
+                    <div class="menu-item"><a href="orders.html" class="nav-heading order">Order</a></div>
+                    <div class="menu-item"><a href="promotion.html" class="nav-heading promo">Promotion</a></div>
+                    <div class="menu-item has-submenu">
                         <a href="aboutus.html" class="nav-heading about">About Us</a>
                         <div class="submenu">
                             <a href="team.html">Our Mission</a>
@@ -30,13 +30,16 @@
                             <a href="team.html">Our CEO</a>
                         </div>
                     </div>
-                    <div><a href="Our%20Restaurant.html" class="nav-heading our">Our Restaurant</a></div>
-                    <div><img src="images/order 1.png" alt="addtocart" class="cart"></div>
+                    <div class="menu-item"><a href="Our%20Restaurant.html" class="nav-heading our">Our Restaurant</a>
+                    </div>
+                    <div class="menu-item cart-item">
+                        <img src="images/order 1.png" alt="addtocart" class="cart">
+                    </div>
                 </div>
             </div>
 
-            <div class="hamburger">
-                <img src="images/menu-icon 1.png" alt="Menu" class="hamburger-icon">
+            <div class="menu-toggle" id="menu-toggle">
+                &#9776;
             </div>
         </div>
 
@@ -263,13 +266,16 @@
                 for you and your loved ones.</p>
 
             <div class="footer-social">
-                <a href="#"><img src="images/facebook.png" alt="Facebook" class="footer-icon"></a>
-                <a href="#"><img src="images/twitter.png" alt="Twitter" class="footer-icon"></a>
-                <a href="#"><img src="images/instagram.png" alt="Instagram" class="footer-icon"></a>
-                <a href="#"><img src="images/youtube.png" alt="YouTube" class="footer-icon"></a>
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"
+                        class="footer-icon"></a>
+                <a href="https://x.com/?lang=en"><img src="images/twitter.png" alt="Twitter" class="footer-icon"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"
+                        class="footer-icon"></a>
+                <a href="https://blog.youtube/"><img src="images/youtube.png" alt="YouTube" class="footer-icon"></a>
             </div>
         </div>
     </div>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
